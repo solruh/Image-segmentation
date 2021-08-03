@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 value=0
+m =0
 class segnet(nn.Module):
     def __init__(self, out_channel=10):
         super(segnet, self).__init__()
